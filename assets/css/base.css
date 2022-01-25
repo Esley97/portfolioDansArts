@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+.container {
+    height: auto;
+    width: auto;
+}
+
+.background {
+    width: 100%;
+    height: 1115.3px;
+}
+
+.portifolio {
+    position: absolute;
+    left: 37.6%;
+    right: 55.88%;
+    top: 51.8%;
+    bottom: 46.1%;
+
+    width: 6.3%;
+    height: auto;
+
+}
+
+.contato {
+    position: absolute;
+    left: 46%;
+    right: 46%;
+    top: 74.21%;
+    bottom: 20.84%;
+
+    width: 7.5%;
+}
