@@ -15,8 +15,10 @@ body {
 }
 
 .portifolio {
+    width: 140px;
+
     position: absolute;
-    left: 43%;
+    left: 36.6%;
     right: 55.88%;
     top: 49.28%;
     bottom: 46.1%;
@@ -25,8 +27,10 @@ body {
 }
 
 .contato {
+    width: 140px;
+
     position: absolute;
-    left: 42.8%;
+    left: 44.3%;
     right: 47.41%;
     top: 74.21%;
     bottom: 20.84%;
