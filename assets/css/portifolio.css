@@ -1,6 +1,27 @@
+body{
+    background-color: black;
+}
+
 .cabecalho {
     text-align:center;
     background-color: black;
     font-size: 30px;
     color: white;
+}
+
+.podcast{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    margin-top: 600px;
+    display: block;
+    background-color: black;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    font-size: 9px;
 }
