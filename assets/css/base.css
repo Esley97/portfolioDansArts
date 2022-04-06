@@ -14,6 +14,12 @@ body {
     height: 100%;
 }
 
+figure {
+    position: relative;
+    width: 1860px;
+    height: 100%;
+}
+
 .portifolio {
     width: 140px;
 
