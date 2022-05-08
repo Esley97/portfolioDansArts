@@ -1,7 +1,8 @@
 body {
+    background-color: black;
     position: relative;
     width: 100%;
-    background-color: black;
+
 }
 .container {
     height: auto;
@@ -10,35 +11,45 @@ body {
 
 .background {
     position: relative;
-    width: 1860px;
     height: 100%;
+    width: 1860px;
 }
 
 figure {
     position: relative;
-    width: 1860px;
     height: 100%;
+    width: 1860px;
 }
 
 .portifolio {
-    width: 140px;
-
-    position: absolute;
-    left: 36.6%;
-    right: 55.88%;
-    top: 49.28%;
     bottom: 46.1%;
     
+    left: 36.6%;
+    position: absolute;
+    right: 55.88%;
+    top: 49.28%;
+    transition: 1s all;
+    
+    width: 140px;
 
 }
 
-.contato {
-    width: 140px;
+.portifolio:hover {
+    transform: scale(1.2);
+}
 
-    position: absolute;
-    left: 44.3%;
-    right: 47.41%;
-    top: 74.21%;
+.contato {
     bottom: 20.84%;
     
+    left: 44.3%;
+    position: absolute;
+    right: 47.41%;
+    top: 74.21%;
+    transition: 1s all;
+    
+    width: 140px;
+}
+
+.contato:hover {
+    transform: scale(1.2);
 }
